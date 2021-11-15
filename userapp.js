@@ -4,6 +4,11 @@ getData = (company, address) => {
   item.innerHTML = `Works in  ${company} and is from ${address} `;
 };
 
+deleteAll = () => {
+  let data = document.getElementById("data");
+  data.innerHTML = "";
+};
+
 retrieveData = () => {
   let dataList = [];
 
